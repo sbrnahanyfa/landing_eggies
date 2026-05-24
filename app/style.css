@@ -1,0 +1,25 @@
+
+.img-hover-zoom {
+    transition: transform 0.5s ease;
+}
+
+.group:hover .img-hover-zoom {
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f4fcee; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #84b179; 
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3f6838; 
+}
